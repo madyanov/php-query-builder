@@ -1,0 +1,21 @@
+{
+    "name": "madyanov/query-builder",
+    "type": "library",
+    "homepage": "https://github.com/madyanov/php-query-builder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Madyanov",
+            "email": "romantaken@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Madyanov\\DB\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "madyanov/interfaces": "^1.0"
+    }
+}
